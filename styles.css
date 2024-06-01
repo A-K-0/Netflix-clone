@@ -1,0 +1,100 @@
+
+.PROFILE {
+    background-color: #141414;
+    color: aliceblue;
+    height: 100vh;
+    text-align: center;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    background-image: linear-gradient(180deg,rgba(0,0,0,.7) 10%,transparent);
+    
+}
+.prpage p{
+    font-size: 6vh;
+    padding-top: 27vh;
+    margin: 0%;
+    font-style: bold;
+}
+
+body, html {
+    overflow: hidden;
+}
+
+.accounts{
+    display:flex;
+    justify-content:center;
+    margin-top: 2%; 
+  
+
+}
+
+.account-Mohit{
+    display:flex;
+    justify-content: center;
+    margin-top: 2%; 
+}
+
+.account-container{
+    width:10%;
+    height:10%;
+    background-color: transparent;
+    text-align: center;
+    
+}
+    
+
+.account-container:not(:last-child){
+    margin-right: 2%;
+}
+
+
+.account-container img {
+    max-width: 100%;
+    border-radius: 5%;
+    cursor: pointer;
+    border: 2px solid transparent; 
+    transition: border-color 0.3s ease; 
+}
+
+.account-container:hover img {
+    border-color: white;   
+}
+
+.account-container p{
+    font-size: 1.3vw;
+    color:grey;
+    padding : 1%;
+    margin-top: 0.5vw;
+}
+
+.account-container:hover p{
+    filter: brightness(2);
+}
+
+
+.account-container svg{
+    color:grey;
+    padding-bottom: 45%;
+}
+
+.Button{
+margin: auto;
+display: inline-block;
+text-decoration: none;
+background-color: transparent;
+color:grey;
+padding:0.5% 1.75%;
+border:1px solid grey;
+font-size: 1.3vw;
+transition: filter 0.3s;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.Button:hover {
+    filter: brightness(3); /* Increase brightness on hover */
+}
+
+ 
